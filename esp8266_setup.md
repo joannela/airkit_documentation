@@ -33,7 +33,7 @@ Connect the USB cable to the computer and install the following.
 
 The pins on the PMS5003 are labeled as follows
 
-<img src="./images/PMS5003_annotated.jpg" width="200">
+<img src="./images/PMS5003_annotated.jpg" width="600">
 
 | Adafruit Huzzah | PMS5003         |
 | --------------- |:---------------:|
