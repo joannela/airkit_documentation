@@ -31,12 +31,16 @@ Connect the USB cable to the computer and install the following.
 
 ### DHT22 Sensor
 
+The pins of the DHT22 sensor are as follows.
+
+<img src="./images/dht_22_pins.jpg" width="600">
+
 | Adafruit Huzzah | DHT22           |
 | --------------- |:---------------:|
-| V+              | 1 (VCC)         |
-| GND             | 2 (GND)         |
-| 2               | 4 (RX           |
-| 4               | 5 (TX)          | 
+| 3V              | 1 (VCC)         |
+| #5              | 2 (DATA)        |
+| -               | 3 (NC)          |
+| GND             | 4 (GND)         | 
 
 ### PMS5003 Sensor
 
@@ -50,8 +54,8 @@ Connect the PMS5003 VCC to V+ which provides 5V the sensor won't have enough pow
 | --------------- |:---------------:|
 | V+              | 1 (VCC)         |
 | GND             | 2 (GND)         |
-| 2               | 4 (RX           |
-| 4               | 5 (TX)          | 
+| #2              | 4 (RX           |
+| #4              | 5 (TX)          | 
 
 ### Powering via USB 
 
