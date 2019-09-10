@@ -44,6 +44,8 @@ The pins of the DHT22 sensor are as follows. An XXX ohm resistor should be place
 
 ### PMS5003 Sensor
 
+https://www.aqmd.gov/docs/default-source/aq-spec/resources-page/plantower-pms5003-manual_v2-3.pdf
+
 The pins on the PMS5003 are from 1–8 as follows. 
 
 <img src="./images/PMS5003_annotated.jpg" width="600">
