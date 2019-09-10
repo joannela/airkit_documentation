@@ -21,8 +21,5 @@ In order to programme the Adafruit Huzzah ESP8266 Breakout it needs to be connec
 | GND             | Black           |
 | V+              | Red             |
 | RX              | Green           |
-| TX              | White           |
-
-
-<img src="./images/esp8266_ttl.jpg" width="100">
+| TX              | White           | <img src="./images/esp8266_ttl.jpg" width="200">
 
