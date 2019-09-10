@@ -16,12 +16,12 @@ We are setting up the RPZW in headless mode which means that we don’t require 
 * Connect a blank SD card to your computer and open the balenaEtcher app.
 * Click Select Image and navigate to the Raspbian Buster Lite zip file that you have just downloaded. Select the drive it may select your SDcard reader by default. Double check and then press Flash. You may need to enter the password of your computer at this point.
 
-![belaEtcher Screenshout](/rasbpi_git/balenaEtcher.png)
+![belaEtcher Screenshout](/images/balenaEtcher.png)
 Format: ![Alt Text](url)
 
 * It will take a few minutes to flash the drive. Once it is complete you will need to take the SD card out of your SD card reader and then reinsert it. You will notice that the SD card is now called ‘boot’ and will contain files that look a bit like this.
 
-![file layout for pi boot drive](/rasbpi_git/boot_pi.png)
+![file layout for pi boot drive](/images/boot_pi.png)
 Format: ![Alt Text](url)
 
 ###Enable SSH
@@ -32,10 +32,10 @@ On Mac OS or Linux
 
 * Go to the Terminal application
 * Write this command and press enter.
-`touch /Volumes/boot/ssh`
+$touch /Volumes/boot/ssh
 * It will create a file called ssh in the ‘boot’ directory.
 
-![file layout for pi boot drive](/rasbpi_git/boot_pi_ssh.png)
+![file layout for pi boot drive](/images/boot_pi_ssh.png)
 Format: ![Alt Text](url)
 
 
