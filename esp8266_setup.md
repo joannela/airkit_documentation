@@ -94,12 +94,33 @@ Some libraries need to be added to the Arduino to run the code. To add a library
 * **WiFiManager** by tzapu Version 0.14.0
 * **DHT sensor** library by Adafruit Version 1.3.7
 * **ThingSpeak** by MathWorks Version 1.5.0
-* **PMS Library** bt Mariusz Kacki 1.1.0 (double check this JA)
-* NB Ticker library?
+* **PMS Library** by Mariusz Kacki 1.1.0 (double check this JA)
+* **FastLED** by Daniel Garcia Version 3.2.1 
 
 ### Uploading Code
 
+Download the code from here [add link to Arduino code] -> NB a flasher?.
+To upload code ensure that you have the correct board (Adafruit Feather HUZZAH ESP8266) and port selected (either COM or /dev/cu.usbserial depending on your operating system and cable).
 
+Every time you upload code the board needs to be put into bootload mode. 
+
+* Hold down the **GPIO0** button (red LED bright)
+* Still holding **GPIO0** press the **RESET** button (red LED bright)
+* Release the **RESET** button then release the **GPIO0** button (red LED dim)
+
+There is no timeout for this mode so press the upload code button in Arduino when you are ready.
+
+
+### Debugging
+
+Things to do when it goes wrong.
+JA go through common errors and issues.
+
+## Connecting to WIFI
+
+
+
+## Positioning the Sensor
 
 
 
