@@ -46,4 +46,4 @@ Install the [Arduino IDE](https://www.arduino.cc/en/main/software "Download Ardu
 * Navigate to the **boards manager** window via Tools > Board > Boards Manager.. and search for 'ESP8266'.
 * Install version **2.5.0** of 'esp8266 by ESP8266 Community'.
 
-<img src="./images/esp8266 board install.png" width="600">
+<img src="./images/esp8266_board_install.png" width="600">
