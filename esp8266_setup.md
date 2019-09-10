@@ -24,4 +24,5 @@ In order to programme the Adafruit Huzzah ESP8266 Breakout it needs to be connec
 | TX              | White           |
 
 
-![file layout for pi boot drive](/images/esp8266_ttl.jpg | width ="200")
+<img src="./images/esp8266_ttl.jpg" width="100">
+
