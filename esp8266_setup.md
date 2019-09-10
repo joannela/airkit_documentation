@@ -45,5 +45,16 @@ Install the [Arduino IDE](https://www.arduino.cc/en/main/software "Download Ardu
 
 * Navigate to the **boards manager** window via Tools > Board > Boards Manager.. and search for 'ESP8266'.
 * Install version **2.5.0** of 'esp8266 by ESP8266 Community'.
+* Close the window.
 
 <img src="./images/esp8266_board_install.png" width="600">
+
+### Connecting the ESP8266 Board
+
+You should now be able to view and select **Adafruit Feather Huzzah ESP8266** from Tools > Board. 
+* Set the CPU frequency to 80 MHz. 
+* Set the Upload Speed to 115200.
+* Set the Port to the correct Serial/COM for the USB to TTL cable.
+
+### 
+
