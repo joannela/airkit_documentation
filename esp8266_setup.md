@@ -16,10 +16,11 @@ Below are instructions for setting up an ESP8266, DHT22 sensor and PMS5003 for t
 
 In order to programme the Adafruit Huzzah ESP8266 Breakout it needs to be connected to the computer via a USB to TTL cable. This connects to the header pins at the top of the board (i.e. TX, RX, V+ and GND). The connections are as follows:
 
+<img src="./images/esp8266_ttl.jpg" width="200">
 | Adafruit Huzzah | TTL Cable       |
 | --------------- |:---------------:|
 | GND             | Black           |
 | V+              | Red             |
 | RX              | Green           |
-| TX              | White           | <img src="./images/esp8266_ttl.jpg" width="200">
+| TX              | White           | 
 
