@@ -14,7 +14,7 @@ Below are instructions for setting up an ESP8266, DHT22 sensor and PMS5003 for t
 
 ## Hardware Setup
 
-In order to programme the Adafruit Huzzah ESP8266 Breakout it needs to be connected to the computer via a USB to TTL cable. This connects to the header pins at the top of the board (i.e. TX, RX, V+ and GND). The connections are as follows:
+Solder header pins to the ESP8266 (following Adafruit instrutions). In order to programme the Adafruit Huzzah ESP8266 Breakout it needs to be connected to the computer via a USB to TTL cable. This connects to the header pins at the top of the board (i.e. TX, RX, V+ and GND). The connections are as follows:
 
 <img src="./images/esp8266_ttl.jpg" width="200">
 
@@ -24,4 +24,21 @@ In order to programme the Adafruit Huzzah ESP8266 Breakout it needs to be connec
 | V+              | Red             |
 | RX              | Green           |
 | TX              | White           | 
+
+Connect the USB cable to the computer and install the following.
+
+### DHT22 Sensor
+
+### PMS5003 Sensor
+
+## Software Setup
+
+Install the [Arduino IDE](https://www.arduino.cc/en/main/software "Download Arduino") on your computer.
+
+### ESP8266 Board Package
+
+* Open the 'Preferences' window in the IDE (CMD + , on mac).
+* Under the settings menu, navigate to 'Additional Boards Manager URLs' copy and paste the following URL into the box. If you have multiple URLs you can separate them with commas.
+
+<img src="./images/esp8266_arduino_board_package.png" width="200">
 
