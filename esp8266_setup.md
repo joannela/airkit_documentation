@@ -40,5 +40,5 @@ Install the [Arduino IDE](https://www.arduino.cc/en/main/software "Download Ardu
 * Open the 'Preferences' window in the IDE (CMD + , on mac).
 * Under the settings menu, navigate to 'Additional Boards Manager URLs' copy and paste the following URL into the box. If you have multiple URLs you can separate them with commas.
 
-<img src="./images/esp8266_arduino_board_package.png" width="200">
+<img src="./images/esp8266_arduino_board_package.png" width="600">
 
