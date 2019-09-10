@@ -38,7 +38,9 @@ Install the [Arduino IDE](https://www.arduino.cc/en/main/software "Download Ardu
 ### ESP8266 Board Package
 
 * Open the 'Preferences' window in the IDE (CMD + , on mac).
-* Under the settings menu, navigate to 'Additional Boards Manager URLs' copy and paste the following URL into the box. If you have multiple URLs you can separate them with commas.
+* Under the settings menu, navigate to 'Additional Boards Manager URLs' copy and paste the following URL into the box. If you have multiple URLs you can separate them with commas. Click OK and return to the main Arduino IDE.
+`http://arduino.esp8266.com/stable/package_esp8266com_index.json`
 
 <img src="./images/esp8266_arduino_board_package.png" width="600">
 
+* Navigate to the **boards manager** window via Tools > Board > Boards Manager.. and search for 'ESP8266'. 
