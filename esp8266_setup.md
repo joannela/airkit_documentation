@@ -31,7 +31,7 @@ Connect the USB cable to the computer and install the following.
 
 ### DHT22 Sensor
 
-The pins of the DHT22 sensor are as follows.
+The pins of the DHT22 sensor are as follows. An XXX ohm resistor should be placed between pin 1 and 2.
 
 <img src="./images/dht_22_pins.jpg" width="600">
 
