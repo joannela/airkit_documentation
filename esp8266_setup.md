@@ -7,6 +7,8 @@ Below are instructions for setting up an ESP8266, DHT22 sensor and PMS5003 for t
 * [PMS5003](https://shop.pimoroni.com/products/pms5003-particulate-matter-sensor-with-cable "Pimoroni PMS5003")
 * [DHT22](https://www.mouser.co.uk/ProductDetail/Seeed-Studio/314010001?qs=sGAEpiMZZMsG1k5vdNM%2FczMiwHVmLeBxy5I1mCdOUxs%3D "Mouser DHT22")
 * [USB to TTL Cable](https://thepihut.com/products/adafruit-usb-to-ttl-serial-cable "PiHut USB to TTL")
+* Micro USB breakout (add link)
+* Micro USB Cable and socket
 * Breadboard
 * Solder
 * Headers
@@ -29,11 +31,20 @@ Connect the USB cable to the computer and install the following.
 
 ### DHT22 Sensor
 
+| Adafruit Huzzah | DHT22           |
+| --------------- |:---------------:|
+| V+              | 1 (VCC)         |
+| GND             | 2 (GND)         |
+| 2               | 4 (RX           |
+| 4               | 5 (TX)          | 
+
 ### PMS5003 Sensor
 
-The pins on the PMS5003 are labeled as follows
+The pins on the PMS5003 are from 1–8 as follows. 
 
 <img src="./images/PMS5003_annotated.jpg" width="600">
+
+Connect the PMS5003 VCC to V+ which provides 5V the sensor won't have enough power if connected to 3V. Other wires on the PMS5003 are not required.
 
 | Adafruit Huzzah | PMS5003         |
 | --------------- |:---------------:|
@@ -41,6 +52,8 @@ The pins on the PMS5003 are labeled as follows
 | GND             | 2 (GND)         |
 | 2               | 4 (RX           |
 | 4               | 5 (TX)          | 
+
+### Powering via USB 
 
 ## Software Setup
 
@@ -67,5 +80,17 @@ You should now be able to view and select **Adafruit Feather Huzzah ESP8266** fr
 * Set the Upload Speed to 115200.
 * Set the Port to the correct Serial/COM for the USB to TTL cable.
 
-### 
+### Testing and Blinking
+
+[To be completed]
+
+### Adding Required Libraries
+
+
+
+### Uploading Code
+
+
+
+
 
